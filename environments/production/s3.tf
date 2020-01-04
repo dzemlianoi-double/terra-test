@@ -1,5 +1,5 @@
-resource "aws_s3_bucket" "test-bucket" {
-  bucket = "my-test-bucket"
+resource "aws_s3_bucket" "test-bucket-staging" {
+  bucket = "my-test-bucket-staging"
   acl    = "private"
 
   tags = {
